@@ -13,11 +13,6 @@ import './styles/styles.scss';
 
 const store= configureStore();
 
-store.dispatch(addExpense({description:'Water bill',note:'my note 1',amount:4500,createdAt:5000}));
-store.dispatch(addExpense({description:'Gas bill',note:'my note 2',createdAt:1000}));
-store.dispatch(addExpense({description:'Rent',note:'my rent note',amount:109500}));
-
-const state=store.getState();
 // const visibleExpenses= getVisibleExpenses(state.expenses,state.filters);
 
 // console.log(visibleExpenses);
