@@ -12,7 +12,7 @@ import './styles/styles.scss';
 
 
 const store= configureStore();
-
+console.log('my react app is running')
 // const visibleExpenses= getVisibleExpenses(state.expenses,state.filters);
 
 // console.log(visibleExpenses);
